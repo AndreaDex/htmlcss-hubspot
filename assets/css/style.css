@@ -8,3 +8,81 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+
+/* Utility class */
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+.btn{
+    display: inline-block;
+    padding: 0.5rem 0.5rem;
+    border-radius: 8px;
+}
+
+.btn_out{
+    border: 1px solid rgba(254, 119, 90, 1);
+    background-color: white;
+}
+
+.btn_sol{
+    background-color: rgba(254, 119, 90, 1) ;
+    border: none;
+}
+
+.btn_out>a{
+    color: rgba(254, 119, 90, 1);
+    text-decoration: none;
+    
+}
+
+.btn_sol>a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+
+
+/*****
+ header style 
+ *****/
+
+ .fixed_nav{
+    background-color: rgba(244, 249, 253, 1);
+    height: 70px;
+    line-height: 70px;
+    vertical-align: middle;
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.left_side, .right_side{
+    width: 50%;
+    float: left;
+}
+
+.left_side img{
+     filter: brightness(0.5);
+     height: 14px;
+ }
+
+ .right_side{
+     text-align: right;
+ }
+
+ .right_side img{
+     height: 14px;
+ }
+
+.right_side>.btn_out{
+    margin: 0 1rem;
+}
