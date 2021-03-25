@@ -36,6 +36,12 @@ body{
     border: none;
 }
 
+.btn_big{
+    font-size: 10px;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
 .btn_out>a{
     color: rgba(254, 119, 90, 1);
     text-decoration: none;
@@ -120,4 +126,36 @@ body{
 
 li:not(:nth-child(2))::after{
     content: ' \02C5';
+}
+
+/* banner style */
+.banner{
+    background-color: rgba(255, 243, 239, 1);
+    height: 500px;
+    background-image: url(../img/jumbotron.png);
+    background-position: 121% 57%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.jumbotron{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.jumbotron>h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.jumbotron>p{
+    color: rgba(51, 71, 91, 1);
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.jumbotron p:last-child{
+    font-size: 10px;
+    margin-top: 30px;
 }
