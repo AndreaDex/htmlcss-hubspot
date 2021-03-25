@@ -54,15 +54,16 @@ body{
  header style 
  *****/
 
- .fixed_nav{
+ /* <!-- nav fissa style --> */
+ .top_nav{
     background-color: rgba(244, 249, 253, 1);
     height: 70px;
     line-height: 70px;
     vertical-align: middle;
     font-size: 14px;
-    position: fixed;
-    top: 0;
     width: 100%;
+    border-bottom: 1px solid black;
+    display: inline-block;
 }
 
 .left_side, .right_side{
@@ -75,6 +76,10 @@ body{
      height: 14px;
  }
 
+ .left_side>span:not(:nth-child(3)):after{
+        content: ' \02C5';
+ }
+
  .right_side{
      text-align: right;
  }
@@ -85,4 +90,34 @@ body{
 
 .right_side>.btn_out{
     margin: 0 1rem;
+}
+ /* <!-- nav fissa style--> */
+
+ /* main nav style */
+.main_nav{
+    height: 70px;
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.logo_img>img{
+    height: 20px; 
+}
+
+.nav_select>ul{
+    list-style: none;
+    text-align: right;
+}
+
+.nav_select>ul>li{
+    display: inline-block;
+    padding: 0 5px;
+}
+
+li:not(:nth-child(2))::after{
+    content: ' \02C5';
 }
