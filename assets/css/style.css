@@ -6,7 +6,9 @@
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(51, 71, 91, 1)
 }
 
 /* Utility class */
@@ -15,7 +17,7 @@ body{
     width: 70%;
     margin: auto;
 }
-.clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
@@ -54,14 +56,25 @@ body{
    
 }
 
+.unstyled_list{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding: 0 10px;
+}
+
 
 
 /*****
  header style 
  *****/
+header{
+    color: rgba(51, 71, 91, 1);
+}
 
  /* <!-- nav fissa style --> */
- .top_nav{
+.top_nav{
     background-color: rgba(244, 249, 253, 1);
     height: 70px;
     line-height: 70px;
@@ -76,22 +89,17 @@ body{
     width: 50%;
     float: left;
 }
-
-.left_side img{
-     filter: brightness(0.5);
-     height: 14px;
- }
-
- .left_side>span:not(:nth-child(3)):after{
-        content: ' \02C5';
- }
+.unstyled_list>li:first-child{
+    padding-right: 10px;
+    border-right: 1px solid rgba(51, 71, 91, 1);
+}
 
  .right_side{
      text-align: right;
  }
 
  .right_side img{
-     height: 14px;
+     width: 14px;
  }
 
 .right_side>.btn_out{
@@ -111,32 +119,32 @@ body{
 }
 
 .logo_img>img{
-    height: 20px; 
+   width: 100px;
+    line-height: 70px;
+    vertical-align: middle;
 }
 
 .nav_select>ul{
-    list-style: none;
     text-align: right;
 }
-
-.nav_select>ul>li{
-    display: inline-block;
-    padding: 0 5px;
+.nav_select li i{
+    padding: 0 10px;
 }
 
-li:not(:nth-child(2))::after{
-    content: ' \02C5';
+.nav_select li i:last-child{
+    padding-right: 0;
 }
 
 /* banner style */
 .banner{
     background-color: rgba(255, 243, 239, 1);
-    height: 500px;
+    height: 610px;
     background-image: url(../img/jumbotron.png);
-    background-position: 121% 57%;
+    background-position: top right;
     background-repeat: no-repeat;
     position: relative;
 }
+
 .jumbotron{
     width: 30%;
     position: absolute;
@@ -153,6 +161,8 @@ li:not(:nth-child(2))::after{
     color: rgba(51, 71, 91, 1);
     font-size: 14px;
     margin-bottom: 30px;
+    line-height: 20px;
+
 }
 
 .jumbotron p:last-child{
@@ -163,7 +173,33 @@ li:not(:nth-child(2))::after{
 /* separe style */
 .separe{
     height: 70px;
-    border-top: 3px solid black;
+    border-top: 2px solid rgba(51, 71, 91, 1);
     background-color: rgba(175, 235, 228, 1);
-    border-bottom: 3px solid black;
+    border-bottom: 2px solid rgba(51, 71, 91, 1)    ;
+}
+
+/***** 
+Main style 
+******/
+main{
+    height: 1400px;
+    background-color: rgba(244, 249, 253, 1);
+}
+
+
+.main_ban{
+    text-align: center;
+    width: 55%;
+    margin: auto;
+    padding: 30px 0 ;
+}
+.main_ban>img{
+    height: 200px;
+}
+
+.main_ban h2{
+    margin-bottom: 30px;
+}
+.main_ban p{
+    line-height: 25px;
 }
