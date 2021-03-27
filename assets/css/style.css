@@ -396,3 +396,26 @@ padding: 15px 0;
 .lt_boxes>p{
     font-size: 10px;
 }
+
+/* partner section style */
+.partner_data{
+    width: 30%;
+    text-align: center;
+    padding: 50px;
+}
+
+.partner_data>h2{
+    font-size: 50px;
+}
+
+.partner_data>p{
+    line-height: 25px;
+    padding: 30px 30px;
+    font-size: 12px;
+}
+
+.partners_logo{
+    width: 70%;
+    vertical-align: middle;
+}
+
