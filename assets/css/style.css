@@ -206,7 +206,7 @@ header{
 Main style 
 ******/
 main{
-    height: 1400px;
+    padding: 40px 0;
     background-color: rgba(244, 249, 253, 1);
 }
 
@@ -286,6 +286,16 @@ main{
     margin-bottom: 10px;
 }
 
+.rx_side_cll h5::after{
+        content: "";
+        display: inline-block;
+        width: 68%;
+        vertical-align: middle;
+        border-bottom: 2px solid rgba(51, 71, 91, 1);
+        margin-left: 50px;
+}
+
+
 .col_3 p{
     font-size: 14px;
 }
@@ -301,6 +311,13 @@ main{
 }
 
 .col_3 h5::before{
+    content: "";
+        display: inline-block;
+        width: 75%;
+        vertical-align: middle;
+        border-bottom: 2px solid rgba(51, 71, 91, 1);
+        margin: 30px auto;
+    
 
 }
 
@@ -313,3 +330,6 @@ main{
     border-radius: 50%;
 }
 
+.sx_side_cll .btn_learn{
+    margin-top: 15px;
+}
