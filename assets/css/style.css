@@ -229,6 +229,10 @@ main{
 }
 
 /* main column style */
+
+#columns{
+    margin-bottom: 40px;
+}
 .col_large{
     background-color: white;
     position: relative;
@@ -332,4 +336,63 @@ main{
 
 .sx_side_cll .btn_learn{
     margin-top: 15px;
+}
+
+/* main data section style */
+
+.data_section{
+    background-color: rgba(0, 181, 173, 1);
+    color: white;
+    padding: 50px;
+
+}
+
+.data_section > .container h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 0;
+}
+
+.data_section p{
+    font-size: 14px;
+    text-align: center;
+    
+}
+
+/* style box dati */
+.lt_boxes{
+    width: calc(100% / 4);
+    text-align: center;
+    padding: 15px 30px;
+}
+
+.row1{
+    margin-top: 30px;
+}
+
+.row1 .lt_boxes{
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.row2 .lt_boxes{
+    border-right: 1px solid white;
+}
+
+.row1 .lt_boxes:last-child, .row2 .lt_boxes:last-child {
+    border-right: 0;
+}
+
+.lt_boxes h2{
+font-weight: 800;
+padding: 15px 0;
+}
+
+.lt_boxes h2::after{
+    content: " +";
+    font-weight: normal;
+}
+
+.lt_boxes>p{
+    font-size: 10px;
 }
