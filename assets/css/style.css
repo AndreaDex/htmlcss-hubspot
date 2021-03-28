@@ -426,4 +426,37 @@ padding: 15px 0;
 }
 .gallery img{
     width: 100%;
+   
+}
+
+
+/* grow section style */
+
+.banner2{
+    height: 400px;
+    background-image: url(../img/woman.webp);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+.banner2_text{
+    width: 40%;
+    padding: 20px 0;
+}
+
+.banner2_text>h2{
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.banner2_text>p{
+    font-size: 13px;
+    line-height: 20px;
+    padding: 25px 0;
+    
+}
+
+.banner2_text>p:last-child{
+    font-size: 10px;
+    margin-top: 20px;
 }
