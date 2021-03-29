@@ -416,16 +416,17 @@ padding: 15px 0;
 
 .partners_logo{
     width: 70%;
-    vertical-align: middle;
+    padding-top: 80px;
+    text-align: center;
 }
 
 .gallery{
-        
+        margin-bottom: 20px;
         float: left;
         width: calc(100% / 4);
 }
 .gallery img{
-    width: 100%;
+    width: 50%;
    
 }
 
@@ -435,9 +436,9 @@ padding: 15px 0;
 .banner2{
     height: 400px;
     background-image: url(../img/woman.webp);
-    background-size: 30%;
+    background-size: 25%;
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: 100% 40%;
 }
 .banner2_text{
     width: 40%;
