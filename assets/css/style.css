@@ -525,3 +525,29 @@ footer{
     color: white;
     padding: 0 15px;
 }
+
+
+/* terms style */
+.footer_logo, .terms{
+    padding: 40px 0;
+    width: 50%;
+}
+
+.footer_logo span{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 0;
+    display: block;
+}
+
+.terms{
+    text-align: right;
+}
+.terms>a{
+    color: white;
+    font-size: 12px;
+}
+
+.terms>a:first-child{
+    padding-right: 10px;
+}
