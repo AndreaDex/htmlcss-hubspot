@@ -538,11 +538,16 @@ footer{
     width: 50%;
 }
 
+.footer_logo>img{
+    filter: opacity(0.5);
+}
+
 .footer_logo span{
     font-size: 12px;
     font-weight: bold;
     padding: 5px 0;
     display: block;
+    filter: opacity(0.5);
 }
 
 .terms{
