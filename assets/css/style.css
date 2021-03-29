@@ -112,6 +112,10 @@ header{
     width: 100%;
     border-bottom: 1px solid black;
     display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .left_side, .right_side{
@@ -145,6 +149,7 @@ header{
     line-height: 70px;
     vertical-align: middle;
     font-size: 14px;
+    margin-top: 70px;
 }
 
 .logo_img>img{
