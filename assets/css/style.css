@@ -28,6 +28,10 @@ li{
     padding: 0 10px;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* Utility class */
 
 .container{
@@ -474,6 +478,7 @@ footer{
     color: white;
 }
 
+/* colonne style */
  .foot_col{
      width: calc(100% / 4);
  }
@@ -506,4 +511,17 @@ footer{
 
 .foot_col>ul>li>i{
     padding-right: 10px;
+}
+
+/* language style */
+.languages{
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid white;
+}
+.languages>a{
+    color: white;
+    padding: 0 15px;
 }
